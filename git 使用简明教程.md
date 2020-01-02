@@ -26,8 +26,6 @@ git init
 
 ### 提交代码
 
-git init
-
 git status
 
 git add
@@ -35,3 +33,38 @@ git add
 git commit -m
 
 git log
+
+### 撤销
+
+git checkout (git restore )
+
+git rm --cached
+
+git reset --hard commitID
+
+### 分支
+
+git branch
+
+git checkout
+
+git merge
+
+git branch -d (-D)
+
+git stash
+
+git stash pop
+
+### github
+
+git push https://github.com/zjfsdnu/deer_go_guide.git master
+
+#### 起别名
+
+git remote add *origin* https://github.com/zjfsdnu/deer_go_guide.git
+
+之后只需要使用*origin*替代地址即可
+
+git push **-u** origin master 加入**-u**之后 存储到Windows 凭据管理器 之后直接git push即可
+
