@@ -38,7 +38,7 @@ golint ./...
 
 ### 关于新建项目
 
-新建项目都要基于 go module模式
+新建项目都要基于 go module 模式
 
 go env -w GO111MODULE=on
 
@@ -60,4 +60,5 @@ go test ./...
 
 
 [Uber Go 语言编码规范]: https://github.com/xxjwxc/uber_go_guide_cn
+
 
