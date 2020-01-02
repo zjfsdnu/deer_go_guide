@@ -28,7 +28,7 @@ git init
 
 git status
 
-git add
+git add xxx
 
 git commit -m
 
@@ -36,21 +36,23 @@ git log
 
 ### 撤销
 
-git checkout (git restore )
+git checkout (git restore ) xxx
 
-git rm --cached
+git rm --cached xxx
 
 git reset --hard commitID
 
 ### 分支
 
-git branch
+git branch xxx
 
-git checkout
+git checkout xxx
 
-git merge
+git merge xxx
 
-git branch -d (-D)
+git branch -d (-D 强制删除) xxx
+
+#### 暂存代码
 
 git stash
 
