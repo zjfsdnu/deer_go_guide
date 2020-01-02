@@ -66,5 +66,5 @@ git remote add *origin* https://github.com/zjfsdnu/deer_go_guide.git
 
 之后只需要使用*origin*替代地址即可
 
-git push **-u** origin master 加入**-u**之后 存储到Windows 凭据管理器 之后直接git push即可
+git push **-u** origin master 加入**-u** 之后 存储到Windows 凭据管理器 之后直接git push即可
 
