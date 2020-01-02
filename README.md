@@ -60,6 +60,6 @@ go test ./...
 ```
 
 
-[Uber Go 语言编码规范]: https://github.com/xxjwxc/uber_go_guide_cn
+[Uber Go 语言编码规范]: https://github.com/xxjwxc/uber_go_guide_cn	"Uber Go 语言编码规范"
 
 
