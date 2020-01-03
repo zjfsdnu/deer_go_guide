@@ -28,11 +28,11 @@ git init
 
 git status
 
-git add xxx
+git add xxx （. 全部修改）
 
 git commit -m
 
-git log
+git log （-p 显示修改内容）（--stat 显示统计）
 
 ### 撤销
 
@@ -41,6 +41,8 @@ git checkout (git restore ) xxx
 git rm --cached xxx
 
 git reset --hard commitID
+
+git commit --amend 覆盖上次提交
 
 ### 分支
 
