@@ -6,15 +6,16 @@ https://git-scm.com/downloads
 
 选择对应os版本，默认安装即可
 
+在工作目录里 右键选择 *Git Bash Here*
+
 ### 初始化配置
 
-git config --global user.name xxx
+git config --global user.name xxx （--global 表示存到当前用户的目录里 --system表示全部用户）
 
 git config --global user.email xxx@x.com
 
 git config --list
 
-### 
 
 ### 远程下载代码
 
@@ -26,11 +27,11 @@ git init
 
 ### 提交代码
 
-git status
+git status （-s 简短模式）
 
 git add xxx （. 全部修改）
 
-git commit -m
+git commit -m （-a 省略git add）（不加-m打开默认编辑器）
 
 git log （-p 显示修改内容）（--stat 显示统计）
 
