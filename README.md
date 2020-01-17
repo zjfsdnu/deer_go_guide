@@ -40,6 +40,8 @@ golint ./...
 
 新建项目都要基于 go module 模式
 
+go env -w GOPROXY=https://goproxy.cn,direct
+
 go env -w GO111MODULE=on
 
 go mod init projectname
