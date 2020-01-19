@@ -47,11 +47,11 @@ git commit --amend 覆盖上次提交
 
 ### 分支
 
-git branch xxx
+git branch xxx （新建分支）
 
-git checkout xxx
+git checkout xxx （切换分支）（-b 创建+切换）
 
-git merge xxx
+git merge xxx （合并分支）
 
 git branch -d (-D 强制删除) xxx
 
